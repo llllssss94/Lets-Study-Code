@@ -3,7 +3,7 @@ from collections import deque
 def recurse(depth, begin, target, words, visited):
     queue = deque([begin])
 
-    # DFS
+    # BFS
     while queue:
         w = queue.popleft()
 
